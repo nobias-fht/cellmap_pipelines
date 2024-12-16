@@ -1,0 +1,11 @@
+name: dacapo
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+          - dacapo-ml
+          - 'scikit-image[data]'
+          - matplotlib
+          - jupyter
